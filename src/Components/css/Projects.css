@@ -1,0 +1,53 @@
+.div-img1{
+    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-img2{
+    margin-left: 280px;
+    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.div-img3{
+    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@keyframes slide-in {
+    0% {
+        opacity: 0;
+        transform: translate3d(-100%, 0px, 0px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.project-animate{
+animation-fill-mode: both;
+animation-duration: 2000ms;
+animation-delay: 0ms;
+animation-iteration-count: 1;
+opacity: 1;
+animation-name: aboutanimation;
+}
+
+@keyframes aboutanimation {
+0% {
+  opacity: 0;
+  transform: translate3d(-100%, 0px, 0px);
+}
+100% {
+  opacity: 1;
+  transform: none;
+}
+} 

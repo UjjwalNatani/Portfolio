@@ -1,0 +1,53 @@
+.main-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+  height: 500px;
+  width: 99vw;
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: aboutanimation;
+}
+
+@keyframes aboutanimation {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+} 
+
+.about-text {
+  background-color:#ece0d7;
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  margin: 200px;
+  text-Align: left;
+  margin-Top: 48px;
+  color: rgb(172, 20, 20);
+
+}
+
+.about-image {
+  height: 500px;
+  width: 98vw;
+  display: flex;
+};
+
+.about-animate {
+  animation-fill-mode: both;
+  animation-duration: 2000ms;
+  animation-delay: 0ms;
+  animation-iteration-count: 1;
+  opacity: 1;
+  animation-name: aboutanimation;
+}
+
