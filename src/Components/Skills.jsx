@@ -44,7 +44,7 @@ export function Skills() {
                     </div>
                 </div>
                 <div className='div'><h5 className='mt-3'>Hosting Platform</h5>
-                    <div>
+                    <div> 
                         <img src={netlify} alt="" width="50px" height="50px" className='m-2' /> Netlify <br />
                         <img src={github} alt="" width="50px" height="50px" className='m-2' />Github Pages <br />
                         <img src={vercel} alt="" width="50px" height="50px" className='m-2' /> Vercel <br />

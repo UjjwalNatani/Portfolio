@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className='bg-primary-subtle'>
-
+ 
       <Routes>
         <Route path='/'></Route>
         <Route path='/About_me' element={<AboutMe />}></Route>

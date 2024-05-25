@@ -11,7 +11,7 @@ export function Home() {
                     <div class="dot"></div>
                     <div class="dot"></div>
                 </div>
-            </div>
+            </div> 
         </div>
     )
 }

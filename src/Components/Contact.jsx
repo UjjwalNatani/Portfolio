@@ -10,5 +10,5 @@ export function Contact() {
                 <button className="btn btn-secondary mx-3"><a href="mailto:ujjwalnatani10@gmail.com" style={{ color: 'black', textDecoration: 'none' }}>Email Me</a></button>
             </div>
         </div>
-    )
+    ) 
 }

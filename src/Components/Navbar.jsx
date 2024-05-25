@@ -11,6 +11,6 @@ export function Navbar() {
                 <a href="#project" className="navbar-brand text-info mx-3">Projects</a>
                 <a href="#contact" className="navbar-brand text-info mx-3">Contact</a>
             </div>
-        </div>
+        </div> 
     )
 }

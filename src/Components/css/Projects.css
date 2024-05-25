@@ -9,7 +9,7 @@
     /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
 }
 
 .div-title{

@@ -12,8 +12,8 @@ export function Project() {
                 <div className="div-title">
                     <h2 style={{ color: "black", fontSize: '50px', marginLeft: '200px', fontStyle: 'italic' }}>Quiz Platform</h2>
                     <h5>Welcome to QuizWise: Your hub for creating, managing, and playing quizzes! Dive into a world of interactive learning, where you can craft quizzes effortlessly, challenge your mind, and get instant results. Join the fun on QuizWise and unleash your inner Quizmaster!</h5>
-                </div>
-                
+                </div> 
+
             </div>
             <div className="div-img2 mb-5 project-animate">
                 <div className="div-title">
