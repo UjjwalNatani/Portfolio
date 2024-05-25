@@ -1,5 +1,4 @@
-.div-img1{
-    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
+.div-img{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -13,11 +12,9 @@
     align-items: center;
 }
 
-.div-img3{
-    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
+.div-title{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
 }
 
 @keyframes slide-in {

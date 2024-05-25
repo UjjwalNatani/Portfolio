@@ -1,7 +1,7 @@
 import './App.css';
 import { Home } from './Components/Home';
 import { Navbar } from './Components/Navbar';
-import { About_me } from './Components/About_me';
+import { AboutMe } from './Components/About_me';
 import { Skills } from './Components/Skills';
 import { Project } from './Components/Projects';
 import { Contact } from './Components/Contact';
@@ -13,7 +13,7 @@ function App() {
 
       <Routes>
         <Route path='/'></Route>
-        <Route path='/About-me' element={<About_me />}></Route>
+        <Route path='/About_me' element={<AboutMe />}></Route>
         <Route path='/Skills' element={<Skills />}></Route>
         <Route path='/Project' element={<Project />}></Route>
         <Route path='/Contact' element={<Contact />}></Route>
@@ -21,7 +21,7 @@ function App() {
 
       <Navbar />
       <Home />
-      <About_me />
+      <AboutMe />
       <Skills />
       <Project />
       <Contact />
