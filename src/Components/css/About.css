@@ -30,10 +30,9 @@
   width: 500px;
   border-radius: 20px;
   margin: 200px;
-  text-Align: left;
   margin-Top: 48px;
   color: rgb(172, 20, 20);
-
+  text-align: justify;
 }
 
 .about-image {
