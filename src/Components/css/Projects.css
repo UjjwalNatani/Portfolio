@@ -1,20 +1,17 @@
+.project-div-main{
+    padding: 0 6vw 0 6vw;
+}
+
 .div-img{
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.div-img2{
-    margin-left: 280px;
-    /* animation: slide-in 1.0s ease-in-out 1s 1 normal forwards; */
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-}
-
 .div-title{
     display: flex;
     flex-direction: column;
+    padding: 2%;
 }
 
 @keyframes slide-in {
